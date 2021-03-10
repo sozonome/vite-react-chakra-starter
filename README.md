@@ -1,5 +1,7 @@
 # vite-react-chakra-starter
 
+This is a project bootstrapped with [`@vitejs/app`](https://vitejs.dev/guide/#scaffolding-your-first-vite-project) (`react-ts`), added with [Chakra UI](https://chakra-ui.com) setup.
+
 ## Getting Started
 
 ```bash
@@ -13,3 +15,7 @@ install `react-router-dom` if you want to add route management
 yarn add react-router-dom
 yarn add -D @types/react-router-dom
 ```
+
+## References
+- [vite](https://vitejs.dev)
+- [Chakra UI](https://chakra-ui.com/)
