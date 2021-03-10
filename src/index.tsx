@@ -1,7 +1,7 @@
 import { ChakraProvider } from "@chakra-ui/react";
 import React from "react";
 import ReactDOM from "react-dom";
-import "@fontsource/josefin-sans/latin.css";
+import "@fontsource/spartan/latin.css";
 
 import App from "./App";
 

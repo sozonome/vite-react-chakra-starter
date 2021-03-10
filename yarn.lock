@@ -836,10 +836,10 @@
   resolved "https://registry.yarnpkg.com/@emotion/weak-memoize/-/weak-memoize-0.2.5.tgz#8eed982e2ee6f7f4e44c253e12962980791efd46"
   integrity sha512-6U71C2Wp7r5XtFtQzYrW5iKFT67OixrSxjI4MptCHzdSVlgabczzqLe0ZSgnub/5Kp4hSbpDB1tMytZY9pwxxA==
 
-"@fontsource/josefin-sans@^4.2.2":
+"@fontsource/spartan@^4.2.2":
   version "4.2.2"
-  resolved "https://registry.yarnpkg.com/@fontsource/josefin-sans/-/josefin-sans-4.2.2.tgz#066eb63d1fd8f29241fcf1610a3ec37206b8fde5"
-  integrity sha512-wtm4Wn0Hcsizgxz/I3yYQxQxGvzZOWQ/U9kJRSR+FFNRS+BCxBSX6gjOuNNf1N8nOxKdgnfW/V4XdS7ABGtRGQ==
+  resolved "https://registry.yarnpkg.com/@fontsource/spartan/-/spartan-4.2.2.tgz#b5beee7a1b5c26ed37fc41de5f45fbfc474e5277"
+  integrity sha512-hc4edbMXCnecSlMR2whxgYtGqR4LIbHVayTgsqUTgs2kdR8HS22kpnH+fm2yNniWZZR6/31GXsA2qbbDXePTHg==
 
 "@popperjs/core@2.4.4":
   version "2.4.4"
