@@ -18,4 +18,5 @@ yarn add -D @types/react-router-dom
 
 ## References
 - [vite](https://vitejs.dev)
+  - [avoid manual import](https://vitejs.dev/guide/features.html#jsx)
 - [Chakra UI](https://chakra-ui.com/)

@@ -1,6 +1,5 @@
 import Icon from "@chakra-ui/icon";
 import { Box, Heading } from "@chakra-ui/layout";
-import React from "react";
 import { BiWinkSmile } from "react-icons/bi";
 
 import Layout from "./components/layout";

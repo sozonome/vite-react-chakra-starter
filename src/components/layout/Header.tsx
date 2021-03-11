@@ -1,5 +1,4 @@
 import { Flex, Heading } from "@chakra-ui/layout";
-import React from "react";
 
 const Header = () => {
   return (
