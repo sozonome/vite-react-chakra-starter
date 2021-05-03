@@ -9,7 +9,9 @@ const Header = () => {
       alignSelf="flex-start"
       justifyContent="center"
     >
-      <Heading as="h1">vite-react-chakra-starter</Heading>
+      <Heading as="h1" size="sm">
+        vite-react-chakra-starter
+      </Heading>
     </Flex>
   );
 };

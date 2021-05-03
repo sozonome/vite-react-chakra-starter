@@ -9,7 +9,7 @@ const Footer = () => {
       alignSelf="flex-end"
       justifyContent="center"
     >
-      <Text>
+      <Text fontSize="sm">
         {new Date().getFullYear()} -{" "}
         <Link href="https://sznm.dev" isExternal>
           sznm.dev
