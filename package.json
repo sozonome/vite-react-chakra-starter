@@ -5,16 +5,16 @@
   "author": "sozonome",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build",
     "serve": "vite preview",
     "prettify": "prettier --write src/"
   },
   "dependencies": {
-    "@chakra-ui/react": "^1.6.0",
+    "@chakra-ui/react": "^1.6.2",
     "@emotion/react": "^11.4.0",
     "@emotion/styled": "^11.3.0",
-    "@fontsource/spartan": "^4.3.0",
-    "framer-motion": "^4.1.11",
+    "@fontsource/spartan": "^4.4.0",
+    "framer-motion": "^4.1.17",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "^4.2.0"
