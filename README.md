@@ -2,18 +2,22 @@
 
 This is a project bootstrapped with [`@vitejs/app`](https://vitejs.dev/guide/#scaffolding-your-first-vite-project) (`react-ts`), added with [Chakra UI](https://chakra-ui.com) and [TypeScript](https://www.typescriptlang.org) setup.
 
+- ⚡ blazing fast dev server and build
+- 🔗 route management added (`react-router-dom` configured)
+- 📈 SEO optimization ready (`react-helmet` configured)
+
+[**Live Demo**](https://vite-react-chakra-starter.sznm.dev/)
+
 ## Getting Started
+
+You can either click [`Use this template`](https://github.com/sozonome/vite-react-chakra-starter/generate) button on this repository and clone the repo or use npx degit like so:
+
+```bash
+npx degit sozonome/vite-react-chakra-starter <app_name>
+```
 
 ```bash
 yarn dev
-```
-
-## No Need Route Management?
-
-remove `react-router-dom` if you don't need route management
-
-```bash
-yarn remove react-router-dom @types/react-router-dom
 ```
 
 ## Deployment
