@@ -1,7 +1,10 @@
 import { ChakraProvider } from "@chakra-ui/react";
 import { StrictMode } from "react";
 import ReactDOM from "react-dom";
-import "@fontsource/spartan/latin.css";
+
+// fonts
+import "@fontsource/raleway/latin.css";
+import "@fontsource/inter/latin.css";
 
 import App from "./App";
 

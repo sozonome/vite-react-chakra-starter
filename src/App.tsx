@@ -1,19 +1,27 @@
-import Icon from "@chakra-ui/icon";
-import { Box, Heading } from "@chakra-ui/layout";
-import { BiWinkSmile } from "react-icons/bi";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-import Layout from "./components/layout";
+import Layout from "components/layout";
+import PrivateRoute from "components/route/PrivateRoute";
+
+import { privateRoutes, routes } from "routes";
 
 function App() {
   return (
-    <Layout>
-      <Box>
-        <Heading textAlign="center">
-          Hello
-          <Icon as={BiWinkSmile} />
-        </Heading>
-      </Box>
-    </Layout>
+    <Router>
+      <Layout>
+        <Switch>
+          {routes.map((routeProps, index) => (
+            <Route exact {...routeProps} key={index} />
+          ))}
+          {privateRoutes.map((privateRouteProps, index) => (
+            <PrivateRoute
+              {...privateRouteProps}
+              key={`privateRoute-${index}`}
+            />
+          ))}
+        </Switch>
+      </Layout>
+    </Router>
   );
 }
 
