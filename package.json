@@ -5,7 +5,7 @@
   "author": "sozonome",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build",
     "serve": "vite preview",
     "prettify": "prettier --write src/"
   },
