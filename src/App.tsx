@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import Layout from "components/layout";
 import PrivateRoute from "components/route/PrivateRoute";
+import Page404 from "components/404";
 
 import { privateRoutes, routes } from "routes";
 
@@ -19,6 +20,7 @@ function App() {
               key={`privateRoute-${index}`}
             />
           ))}
+          <Route component={Page404} />
         </Switch>
       </Layout>
     </Router>
