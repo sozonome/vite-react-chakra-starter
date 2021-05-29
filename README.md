@@ -7,13 +7,12 @@ This is a project bootstrapped with [`@vitejs/app`](https://vitejs.dev/guide/#sc
 ```bash
 yarn dev
 ```
-## Add Route Management
+## No Need Route Management?
 
-install `react-router-dom` if you want to add route management
+remove `react-router-dom` if you don't need route management
 
 ```bash
-yarn add react-router-dom
-yarn add -D @types/react-router-dom
+yarn remove react-router-dom @types/react-router-dom
 ```
 
 ## References

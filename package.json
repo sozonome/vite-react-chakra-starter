@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "prettify": "prettier --write src/"
+    "prettify": "prettier --write src"
   },
   "dependencies": {
     "@chakra-ui/react": "^1.6.3",
@@ -17,11 +17,13 @@
     "framer-motion": "^4.1.17",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-icons": "^4.2.0"
+    "react-icons": "^4.2.0",
+    "react-router-dom": "^5.2.0"
   },
   "devDependencies": {
     "@types/react": "^17.0.8",
     "@types/react-dom": "^17.0.5",
+    "@types/react-router-dom": "^5.1.7",
     "@vitejs/plugin-react-refresh": "^1.3.3",
     "prettier": "^2.3.0",
     "typescript": "^4.3.2",
