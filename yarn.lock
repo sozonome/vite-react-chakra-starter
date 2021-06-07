@@ -870,15 +870,15 @@
   resolved "https://registry.yarnpkg.com/@emotion/weak-memoize/-/weak-memoize-0.2.5.tgz#8eed982e2ee6f7f4e44c253e12962980791efd46"
   integrity sha512-6U71C2Wp7r5XtFtQzYrW5iKFT67OixrSxjI4MptCHzdSVlgabczzqLe0ZSgnub/5Kp4hSbpDB1tMytZY9pwxxA==
 
-"@fontsource/inter@^4.4.1":
-  version "4.4.1"
-  resolved "https://registry.yarnpkg.com/@fontsource/inter/-/inter-4.4.1.tgz#56fc896da689ffcc0c4c132451848d3c10ee5e6a"
-  integrity sha512-0nAtSE9Hds0jAUMYi1Jwh3Ht7GNF7OiyA3LFVYHJ9u9sdvKFiIxoTYt/aXs/Qlq8NOcUfxiS4R/yaK9K2OlZ2w==
+"@fontsource/inter@^4.4.5":
+  version "4.4.5"
+  resolved "https://registry.yarnpkg.com/@fontsource/inter/-/inter-4.4.5.tgz#bce26ff9dd83898bd610924cff1342cc30d0e89a"
+  integrity sha512-eRUmB54CbyC3MhAuw2VvTPEc3wy8sFi0/1mVHaC7ZXglXcrSWXY+p8Xad/Zy8AcmS9BuqCCEH2qJbOt9XdX65Q==
 
-"@fontsource/raleway@^4.4.0":
-  version "4.4.0"
-  resolved "https://registry.yarnpkg.com/@fontsource/raleway/-/raleway-4.4.0.tgz#b7a4cc47abe39125a418ec620fd3269063c22265"
-  integrity sha512-IqKpK0Xv1Y4Ncu5+cABzTD/ytN8TULcrJB/jVCfvukXorQh+bfcBmmvO3VC2BeL6TkfLBXQkPmfnKsAaaiV4mg==
+"@fontsource/raleway@^4.4.5":
+  version "4.4.5"
+  resolved "https://registry.yarnpkg.com/@fontsource/raleway/-/raleway-4.4.5.tgz#483871d82aa35e6a981b370b44dbae0b9d59ca6c"
+  integrity sha512-jUOBbqGDadtgjtxQe8YpaiRVy9WGIBUCfQoKlfyuBuI6BNHg1HdsBwL9qetru99uGTTy9L0fEwYoY9J8lhNXqw==
 
 "@popperjs/core@2.4.4":
   version "2.4.4"
@@ -975,16 +975,7 @@
     "@types/history" "*"
     "@types/react" "*"
 
-"@types/react@*":
-  version "17.0.4"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.4.tgz#a67c6f7a460d2660e950d9ccc1c2f18525c28220"
-  integrity sha512-onz2BqScSFMoTRdJUZUDD/7xrusM8hBA2Fktk2qgaTYPCgPvWnDEgkrOs8hhPUf2jfcIXkJ5yK6VfYormJS3Jw==
-  dependencies:
-    "@types/prop-types" "*"
-    "@types/scheduler" "*"
-    csstype "^3.0.2"
-
-"@types/react@^17.0.8":
+"@types/react@*", "@types/react@^17.0.8":
   version "17.0.8"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.8.tgz#fe76e3ba0fbb5602704110fd1e3035cf394778e3"
   integrity sha512-3sx4c0PbXujrYAKwXxNONXUtRp9C+hE2di0IuxFyf5BELD+B+AXL8G7QrmSKhVwKZDbv0igiAjQAMhXj8Yg3aw==
@@ -1154,10 +1145,10 @@ error-ex@^1.3.1:
   dependencies:
     is-arrayish "^0.2.1"
 
-esbuild@^0.11.23:
-  version "0.11.23"
-  resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.11.23.tgz#c42534f632e165120671d64db67883634333b4b8"
-  integrity sha512-iaiZZ9vUF5wJV8ob1tl+5aJTrwDczlvGP0JoMmnpC2B0ppiMCu8n8gmy5ZTGl5bcG081XBVn+U+jP+mPFm5T5Q==
+esbuild@^0.12.5:
+  version "0.12.6"
+  resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.12.6.tgz#85bc755c7cf3005d4f34b4f10f98049ce0ee67ce"
+  integrity sha512-RDvVLvAjsq/kIZJoneMiUOH7EE7t2QaW7T3Q7EdQij14+bZbDq5sndb0tTanmHIFSqZVMBMMyqzVHkS3dJobeA==
 
 escalade@^3.1.1:
   version "3.1.1"
@@ -1707,12 +1698,12 @@ value-equal@^1.0.1:
   resolved "https://registry.yarnpkg.com/value-equal/-/value-equal-1.0.1.tgz#1e0b794c734c5c0cade179c437d356d931a34d6c"
   integrity sha512-NOJ6JZCAWr0zlxZt+xqCHNTEKOsrks2HQd4MqhP1qy4z1SkbEP467eNx6TgDKXMvUOb+OENfJCZwM+16n7fRfw==
 
-vite@^2.3.4:
-  version "2.3.4"
-  resolved "https://registry.yarnpkg.com/vite/-/vite-2.3.4.tgz#370118e0334725b898ff754ea43d5db4c5e120e3"
-  integrity sha512-7orxrF65+Q5n/sMCnO91S8OS0gkPJ7g+y3bLlc7CPCXVswK8to1T8YycCk9SZh+AcIc0TuN6YajWTBFS5atMNA==
+vite@^2.3.6:
+  version "2.3.6"
+  resolved "https://registry.yarnpkg.com/vite/-/vite-2.3.6.tgz#1f7cfde88a51a802d69000c7bac85d481c2e871c"
+  integrity sha512-fsEpNKDHgh3Sn66JH06ZnUBnIgUVUtw6ucDhlOj1CEqxIkymU25yv1/kWDPlIjyYHnalr0cN6V+zzUJ+fmWHYw==
   dependencies:
-    esbuild "^0.11.23"
+    esbuild "^0.12.5"
     postcss "^8.2.10"
     resolve "^1.19.0"
     rollup "^2.38.5"
