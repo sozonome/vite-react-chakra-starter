@@ -6,7 +6,7 @@ import Page404 from "components/404";
 
 import { privateRoutes, routes } from "routes";
 
-function App() {
+const App = () => {
   return (
     <Router>
       <Layout>
@@ -25,6 +25,6 @@ function App() {
       </Layout>
     </Router>
   );
-}
+};
 
 export default App;
