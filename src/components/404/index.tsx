@@ -26,8 +26,8 @@ const Page404 = () => {
       </Box>
 
       <Box>
-        <Text>It's Okay!</Text>
-        <Button onClick={handleBackToHome}>Let's Head Back</Button>
+        <Text>It&apos;s Okay!</Text>
+        <Button onClick={handleBackToHome}>Let&apos;s Head Back</Button>
       </Box>
     </Grid>
   );

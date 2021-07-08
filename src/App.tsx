@@ -6,25 +6,20 @@ import Page404 from "components/404";
 
 import { privateRoutes, routes } from "routes";
 
-const App = () => {
-  return (
-    <Router>
-      <Layout>
-        <Switch>
-          {routes.map((routeProps, index) => (
-            <Route exact {...routeProps} key={index} />
-          ))}
-          {privateRoutes.map((privateRouteProps, index) => (
-            <PrivateRoute
-              {...privateRouteProps}
-              key={`privateRoute-${index}`}
-            />
-          ))}
-          <Route component={Page404} />
-        </Switch>
-      </Layout>
-    </Router>
-  );
-};
+const App = () => (
+  <Router>
+    <Layout>
+      <Switch>
+        {routes.map((routeProps, index) => (
+          <Route exact {...routeProps} key={index} />
+        ))}
+        {privateRoutes.map((privateRouteProps, index) => (
+          <PrivateRoute {...privateRouteProps} key={`privateRoute-${index}`} />
+        ))}
+        <Route component={Page404} />
+      </Switch>
+    </Layout>
+  </Router>
+);
 
 export default App;
