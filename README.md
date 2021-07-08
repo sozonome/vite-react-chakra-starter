@@ -20,10 +20,15 @@ You can either click [`Use this template`](https://github.com/sozonome/vite-reac
 npx degit sozonome/vite-react-chakra-starter <app_name>
 ```
 
+
+[Install `pnpm`](https://pnpm.io/installation)
+This template project use pnpm as its default package manager. If you prefer to use other package manager (npm / yarn), just set it up yourself.
+[`pnpm` cli guide](https://pnpm.io/pnpm-cli)
+
 Then, run the development server:
 
 ```bash
-yarn dev
+pnpm dev
 ```
 
 ## Deployment

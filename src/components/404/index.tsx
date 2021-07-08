@@ -1,6 +1,12 @@
-import { Image } from "@chakra-ui/image";
-import { Box, Grid, Heading, Link, Text } from "@chakra-ui/layout";
-import { Button } from "@chakra-ui/button";
+import {
+  Box,
+  Button,
+  Grid,
+  Heading,
+  Image,
+  Link,
+  Text,
+} from "@chakra-ui/react";
 import { useHistory } from "react-router-dom";
 
 const Page404 = () => {

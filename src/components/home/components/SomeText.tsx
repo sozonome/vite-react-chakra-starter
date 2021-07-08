@@ -1,5 +1,4 @@
-import { Icon } from "@chakra-ui/icon";
-import { Box, Heading, Text } from "@chakra-ui/layout";
+import { Box, Heading, Icon, Text } from "@chakra-ui/react";
 import { BiWinkSmile } from "react-icons/bi";
 
 const SomeText = () => {

@@ -1,5 +1,4 @@
-import { Box, Flex, Link } from "@chakra-ui/layout";
-import { Image } from "@chakra-ui/image";
+import { Box, Flex, Image, Link } from "@chakra-ui/react";
 
 const SomeImage = () => {
   return (

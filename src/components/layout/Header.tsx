@@ -1,5 +1,6 @@
-import { Box, Flex, Heading } from "@chakra-ui/layout";
+import { Box, Flex, Heading } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
+
 import ThemeToggle from "./ThemeToggle";
 
 const Header = () => {
