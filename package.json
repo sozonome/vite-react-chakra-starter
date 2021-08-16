@@ -12,8 +12,8 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@chakra-ui/react": "^1.6.5",
-    "@emotion/react": "^11.4.0",
+    "@chakra-ui/react": "^1.6.6",
+    "@emotion/react": "^11.4.1",
     "@emotion/styled": "^11.3.0",
     "@fontsource/inter": "^4.4.5",
     "@fontsource/raleway": "^4.4.5",
@@ -26,7 +26,7 @@
   },
   "devDependencies": {
     "@types/node": "^15.14.7",
-    "@types/react": "^17.0.16",
+    "@types/react": "^17.0.18",
     "@types/react-dom": "^17.0.8",
     "@types/react-helmet": "^6.1.1",
     "@types/react-router-dom": "^5.1.7",
