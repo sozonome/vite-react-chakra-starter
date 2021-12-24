@@ -1,7 +1,5 @@
 # vite-react-chakra-starter
 
-![vite-react-chakra-starter](https://socialify.git.ci/sozonome/vite-react-chakra-starter/image?description=1&owner=1&pattern=Circuit%20Board&stargazers=1&theme=Dark)
-
 This is a project bootstrapped with [`@vitejs/app`](https://vitejs.dev/guide/#scaffolding-your-first-vite-project) (`react-ts`), added with [Chakra UI](https://chakra-ui.com) and [TypeScript](https://www.typescriptlang.org) setup.
 
 - ⚡ blazing fast dev server and build
