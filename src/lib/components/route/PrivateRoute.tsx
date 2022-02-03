@@ -1,4 +1,5 @@
-import { Redirect, Route, RouteProps } from "react-router-dom";
+import type { RouteProps } from "react-router-dom";
+import { Redirect, Route } from "react-router-dom";
 
 type PrivateRouteProps = RouteProps & {
   isAllowed?: boolean;
@@ -12,7 +13,7 @@ const PrivateRoute = ({
   return (
     <Route
       {...rest}
-      render={(_) => (isAllowed ? RouteComponent : <Redirect to="/login" />)}
+      render={() => (isAllowed ? RouteComponent : <Redirect to="/login" />)}
     />
   );
 };
