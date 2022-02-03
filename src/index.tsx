@@ -7,7 +7,6 @@ import "@fontsource/raleway/latin.css";
 import "@fontsource/inter/latin.css";
 
 import App from "./App";
-
 import { theme } from "./lib/styles/customTheme";
 
 ReactDOM.render(
