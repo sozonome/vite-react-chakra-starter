@@ -8,7 +8,7 @@ import "@fontsource/inter/latin.css";
 
 import App from "./App";
 
-import { theme } from "./styles/customTheme";
+import { theme } from "./lib/styles/customTheme";
 
 ReactDOM.render(
   <StrictMode>

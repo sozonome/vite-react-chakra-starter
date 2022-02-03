@@ -1,6 +1,6 @@
 import { RouteProps } from "react-router-dom";
 
-import Home from "components/home";
+import Home from "lib/pages/home";
 
 export const routes: Array<RouteProps> = [
   {

@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-import Layout from "components/layout";
-import PrivateRoute from "components/route/PrivateRoute";
-import Page404 from "components/404";
+import Layout from "lib/components/layout";
+import PrivateRoute from "lib/components/route/PrivateRoute";
+import Page404 from "lib/pages/404";
 
 import { privateRoutes, routes } from "routes";
 
