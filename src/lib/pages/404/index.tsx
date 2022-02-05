@@ -7,12 +7,12 @@ import {
   Link,
   Text,
 } from "@chakra-ui/react";
-import { useHistory } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const Page404 = () => {
-  const history = useHistory();
+  const navigate = useNavigate();
 
-  const handleBackToHome = () => history.push("/");
+  const handleBackToHome = () => navigate("/");
 
   return (
     <Grid gap={4} textAlign="center">
