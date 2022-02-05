@@ -1,8 +1,5 @@
 # vite-react-chakra-starter
 
-> ## ⚠️ No longer actively maintained.
-> will update deps only
-
 This is a project bootstrapped with [`@vitejs/app`](https://vitejs.dev/guide/#scaffolding-your-first-vite-project) (`react-ts`), added with [Chakra UI](https://chakra-ui.com) and [TypeScript](https://www.typescriptlang.org) setup.
 
 - ⚡ blazing fast dev server and build
