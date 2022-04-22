@@ -11,7 +11,7 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import RequireAuth from "lib/components/auth/RequireAuth";
-import Layout from "lib/components/layout";
+import Layout from "lib/layout";
 import Page404 from "lib/pages/404";
 import { privateRoutes, routes } from "routes";
 
