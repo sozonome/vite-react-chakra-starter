@@ -1,19 +1,20 @@
-import { ChakraProvider } from "@chakra-ui/react";
-import { StrictMode } from "react";
-import ReactDOM from "react-dom";
+import { ColorModeScript } from "@chakra-ui/react";
+import * as React from "react";
+import ReactDOM from "react-dom/client";
 
 // fonts
-import "@fontsource/raleway/latin.css";
-import "@fontsource/inter/latin.css";
+import "@fontsource/plus-jakarta-sans/latin.css";
+
+import { theme } from "lib/styles/customTheme";
 
 import App from "./App";
-import { theme } from "./lib/styles/customTheme";
 
-ReactDOM.render(
-  <StrictMode>
-    <ChakraProvider theme={theme}>
-      <App />
-    </ChakraProvider>
-  </StrictMode>,
-  document.getElementById("root")
+const root = ReactDOM.createRoot(
+  document.getElementById("root") as HTMLElement
+);
+root.render(
+  <React.StrictMode>
+    <ColorModeScript initialColorMode={theme.config?.initialColorMode} />
+    <App />
+  </React.StrictMode>
 );
