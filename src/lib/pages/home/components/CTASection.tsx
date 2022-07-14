@@ -7,7 +7,9 @@ const CTASection = () => (
       _hover={undefined}
       href="https://github.com/sozonome/vite-react-chakra-starter"
     >
-      <Button leftIcon={<AiFillGithub />}>Open in Github</Button>
+      <Button leftIcon={<AiFillGithub />} size="sm">
+        Open in Github
+      </Button>
     </Link>
     <Flex marginY={4} justifyContent="center" gridGap={2}>
       <Link

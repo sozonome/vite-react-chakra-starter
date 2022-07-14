@@ -1,42 +1,35 @@
-import { Box, Flex, Image, Link } from "@chakra-ui/react";
+import { Flex, Image } from "@chakra-ui/react";
+
+const ICON_SIZE = 22;
 
 const SomeImage = () => {
   return (
-    <>
-      <Box textAlign="center" marginX="auto" maxWidth={[280, 400]}>
-        <Image width={240} src="/assets/Building blocks-amico.svg" />
-        <Link fontSize="xs" href="https://stories.freepik.com/web" isExternal>
-          Illustration by Freepik Stories
-        </Link>
-      </Box>
-
-      <Flex marginY={4} justifyContent="center" alignItems="center" gridGap={2}>
-        <Image
-          src="/assets/vite-logo.svg"
-          title="vite"
-          height={33}
-          width={33}
-        />
-        <Image
-          src="/assets/react-icon.svg"
-          title="react"
-          height={33}
-          width={33}
-        />
-        <Image
-          src="/assets/chakra-ui-logomark-colored.svg"
-          title="Chakra UI"
-          height={33}
-          width={33}
-        />
-        <Image
-          src="/assets/ts-logo-512.svg"
-          title="TypeScript"
-          height={33}
-          width={33}
-        />
-      </Flex>
-    </>
+    <Flex marginY={4} justifyContent="center" alignItems="center" gridGap={2}>
+      <Image
+        src="/assets/vite-logo.svg"
+        title="vite"
+        height={ICON_SIZE}
+        width={ICON_SIZE}
+      />
+      <Image
+        src="/assets/react-icon.svg"
+        title="react"
+        height={ICON_SIZE}
+        width={ICON_SIZE}
+      />
+      <Image
+        src="/assets/chakra-ui-logomark-colored.svg"
+        title="Chakra UI"
+        height={ICON_SIZE}
+        width={ICON_SIZE}
+      />
+      <Image
+        src="/assets/ts-logo-512.svg"
+        title="TypeScript"
+        height={ICON_SIZE}
+        width={ICON_SIZE}
+      />
+    </Flex>
   );
 };
 

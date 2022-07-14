@@ -1,17 +1,15 @@
-import { Box, Heading, Icon, Text } from "@chakra-ui/react";
-import { BiWinkSmile } from "react-icons/bi";
+import { Grid, Heading, Text } from "@chakra-ui/react";
 
 const SomeText = () => {
   return (
-    <Box textAlign="center">
-      <Heading>
-        Hello
-        <Icon as={BiWinkSmile} />
+    <Grid textAlign="center" gap={2}>
+      <Heading fontSize="2xl" fontWeight="extrabold">
+        vite-react-chakra-starter
       </Heading>
-      <Text>
+      <Text color="gray.500" fontSize="sm">
         This is a vite react template with Chakra-UI and TypeScript setup.
       </Text>
-    </Box>
+    </Grid>
   );
 };
 

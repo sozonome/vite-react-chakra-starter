@@ -1,5 +1,4 @@
-import { Box, Flex, Heading } from "@chakra-ui/react";
-import { Link } from "react-router-dom";
+import { Box, Flex } from "@chakra-ui/react";
 
 import ThemeToggle from "./ThemeToggle";
 
@@ -13,12 +12,6 @@ const Header = () => {
       justifyContent="center"
       gridGap={2}
     >
-      <Link to="/">
-        <Heading as="h1" size="sm">
-          vite-react-chakra-starter
-        </Heading>
-      </Link>
-
       <Box marginLeft="auto">
         <ThemeToggle />
       </Box>
