@@ -4,7 +4,6 @@ This is a project bootstrapped with [`@vitejs/app`](https://vitejs.dev/guide/#sc
 
 - ⚡ blazing fast dev server and build
 - 🔗 route management added (`react-router-dom` configured)
-- ~~📈 SEO optimization ready~~
 
 [**Live Demo**](https://vite-react-chakra-starter.sznm.dev/)
 
@@ -37,10 +36,3 @@ yarn dev
   - [avoid manual import](https://vitejs.dev/guide/features.html#jsx)
 - [Chakra UI](https://chakra-ui.com/)
 - [TypeScript](https://www.typescriptlang.org)
-
-## Roadmap / TODO
-
-- [ ] configure [`eslint`](https://eslint.org)
-  - lint script and lint:fix script
-  - extend configurations
-- [ ] configure [`vite-plugin-ssr`](https://vite-plugin-ssr.com/)
