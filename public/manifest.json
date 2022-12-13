@@ -1,0 +1,12 @@
+{
+  "short_name": "vite-react-chakra-starter",
+  "name": "Vite React App Template",
+  "lang": "en",
+  "start_url": "/",
+  "background_color": "#FFFFFF",
+  "theme_color": "#FFFFFF",
+  "dir": "ltr",
+  "display": "standalone",
+  "orientation": "portrait",
+  "prefer_related_applications": false
+}

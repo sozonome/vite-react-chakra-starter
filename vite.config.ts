@@ -4,11 +4,7 @@ import { defineConfig } from "vite";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [
-    react({
-      jsxRuntime: "classic",
-    }),
-  ],
+  plugins: [react()],
   resolve: {
     alias: {
       lib: resolve(__dirname, "src/lib"),
