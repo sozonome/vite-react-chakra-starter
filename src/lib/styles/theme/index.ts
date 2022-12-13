@@ -1,5 +1,7 @@
 import { extendTheme } from "@chakra-ui/react";
 
+import { config } from "./config";
+
 export const theme = extendTheme({
   fonts: {
     heading: "Plus Jakarta Sans, sans-serif",
@@ -9,7 +11,5 @@ export const theme = extendTheme({
     // Button: {
     // }
   },
-  config: {
-    initialColorMode: "light",
-  },
+  config,
 });
