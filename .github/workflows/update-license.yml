@@ -8,18 +8,4 @@ on:
 
 jobs:
   update-license:
-    runs-on: ubuntu-latest
-    steps:
-      # Check out the repository
-      - uses: actions/checkout@v2
-      # Update the license file
-      - name: Update License
-        run: |
-          year=$(date +%Y)
-          sed -i "s/Copyright (c) [0-9]\{4\}/Copyright (c) $year/" LICENSE
-      # Commit and push the changes
-      - name: Commit and push
-        uses: stefanzweifel/git-auto-commit-action@v3
-        with:
-          commit_message: "Update license to $year"
-          push: true
+    uses: sozonome/workflows/.github/workflows/update-license.yml@main
