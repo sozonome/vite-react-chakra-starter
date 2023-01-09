@@ -8,3 +8,6 @@ yarn-error.log*
 
 # TS
 *.tsbuildinfo
+
+# Turbo
+.turbo
