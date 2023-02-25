@@ -21,11 +21,11 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@chakra-ui/react": "^2.4.9",
-    "@emotion/react": "^11.10.5",
-    "@emotion/styled": "^11.10.5",
+    "@chakra-ui/react": "^2.5.1",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
     "@fontsource/plus-jakarta-sans": "^4.5.11",
-    "framer-motion": "^8.5.5",
+    "framer-motion": "^10.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
@@ -33,21 +33,21 @@
     "react-router-dom": "^6.8.1"
   },
   "devDependencies": {
-    "@commitlint/config-conventional": "^17.4.2",
-    "@types/node": "^18.13.0",
-    "@types/react": "18.0.26",
-    "@types/react-dom": "^18.0.10",
+    "@commitlint/config-conventional": "^17.4.4",
+    "@types/node": "^18.14.1",
+    "@types/react": "18.0.28",
+    "@types/react-dom": "^18.0.11",
     "@types/react-helmet": "^6.1.6",
     "@vitejs/plugin-react": "^3.1.0",
-    "commitlint": "^17.4.2",
+    "commitlint": "^17.4.4",
     "eslint": "^8.34.0",
     "eslint-config-sznm": "^1.1.0",
     "husky": "^8.0.3",
-    "lint-staged": "^13.1.1",
+    "lint-staged": "^13.1.2",
     "prettier": "^2.8.4",
     "standard-version": "^9.5.0",
-    "turbo": "^1.7.4",
-    "typescript": "4.9.4",
-    "vite": "^4.1.1"
+    "turbo": "^1.8.2",
+    "typescript": "4.9.5",
+    "vite": "^4.1.4"
   }
 }
