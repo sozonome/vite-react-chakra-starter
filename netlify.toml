@@ -5,3 +5,6 @@
 
 [build]
   command = 'pnpm build'
+
+[build.environment]
+  NODE_VERSION=18
