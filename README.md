@@ -22,12 +22,12 @@ npx degit sozonome/vite-react-chakra-starter <app_name>
 Then, run the development server:
 
 ```bash
-yarn dev
+pnpm dev
 ```
 
 ## Deployment
 
-- build command: `yarn build`
+- build command: `pnpm build`
 - output directory: `dist`
 
 ## References
