@@ -7,5 +7,5 @@
   "updatePinnedDependencies": false,
   "stabilityDays": 2,
   "timezone": "Asia/Jakarta",
-  "schedule": ["on the first day every month"]
+  "schedule": ["before 1am on the first day of the month"]
 }
