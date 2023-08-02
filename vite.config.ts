@@ -1,3 +1,4 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import react from "@vitejs/plugin-react";
 import { resolve } from "path";
 import { defineConfig } from "vite";
@@ -6,9 +7,6 @@ import { defineConfig } from "vite";
 export default defineConfig({
   plugins: [react()],
   resolve: {
-    alias: {
-      lib: resolve(__dirname, "src/lib"),
-      routes: resolve(__dirname, "src/routes"),
-    },
+    alias: [{ find: "~", replacement: resolve(__dirname, "src") }],
   },
 });
