@@ -48,7 +48,8 @@
     "standard-version": "^9.5.0",
     "typescript": "5.2.2",
     "vite": "^4.4.9",
-    "vite-plugin-checker": "^0.6.2"
+    "vite-plugin-checker": "^0.6.2",
+    "vite-tsconfig-paths": "^4.2.1"
   },
   "engines": {
     "node": ">=16.x.x",
