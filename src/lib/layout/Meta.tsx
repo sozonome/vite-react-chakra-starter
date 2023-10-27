@@ -1,6 +1,6 @@
-import { Helmet } from "react-helmet";
+import { Helmet } from 'react-helmet';
 
-const APP_NAME = "vite-react-chakra-starter";
+const APP_NAME = 'vite-react-chakra-starter';
 
 const Meta = () => {
   return (

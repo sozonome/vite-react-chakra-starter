@@ -1,4 +1,4 @@
-import { Flex, Image } from "@chakra-ui/react";
+import { Flex, Image } from '@chakra-ui/react';
 
 const ICON_SIZE = 22;
 

@@ -1,4 +1,4 @@
-import { Navigate } from "react-router-dom";
+import { Navigate } from 'react-router-dom';
 
 type PrivateRouteProps = {
   children: React.ReactNode;
@@ -7,7 +7,7 @@ type PrivateRouteProps = {
 
 const RequireAuth = ({
   children,
-  redirectTo = "/login",
+  redirectTo = '/login',
 }: PrivateRouteProps) => {
   // add your own authentication logic here
   const isAuthenticated = true;
