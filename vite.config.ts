@@ -1,6 +1,8 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import react from '@vitejs/plugin-react';
 import million from 'million/compiler';
+import { visualizer } from 'rollup-plugin-visualizer';
+import type { PluginOption } from 'vite';
 import { defineConfig } from 'vite';
 import checker from 'vite-plugin-checker';
 import tsconfigPaths from 'vite-tsconfig-paths';
@@ -15,6 +17,7 @@ export default defineConfig({
       eslint: { lintCommand: 'eslint "./src/**/*.{js,jsx,ts,tsx}"' },
     }),
     tsconfigPaths(),
+    visualizer({ template: 'sunburst' }) as unknown as PluginOption,
   ],
   server: {
     open: true,
