@@ -17,7 +17,11 @@ const CTASection = () => (
         isExternal
         href="https://vercel.com/import/git?s=https://github.com/sozonome/vite-react-chakra-starter"
       >
-        <Image src="https://vercel.com/button" alt="Vercel deploy button" />
+        <Image
+          src="https://vercel.com/button"
+          height="32px"
+          alt="Vercel deploy button"
+        />
       </Link>
       <Link
         aria-label="Deploy to Netlify"
@@ -27,6 +31,7 @@ const CTASection = () => (
         <Image
           src="https://www.netlify.com/img/deploy/button.svg"
           alt="Netlify deploy button"
+          height="32px"
         />
       </Link>
     </Flex>

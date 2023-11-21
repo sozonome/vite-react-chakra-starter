@@ -6,7 +6,7 @@ const SomeText = () => {
       <Heading fontSize="2xl" fontWeight="extrabold">
         vite-react-chakra-starter
       </Heading>
-      <Text color="gray.500" fontSize="sm">
+      <Text fontSize="sm">
         This is a vite react template with Chakra-UI and TypeScript setup.
       </Text>
     </Grid>
