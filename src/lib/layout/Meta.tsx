@@ -17,7 +17,6 @@ const Meta = () => {
       <meta name="theme-color" content="#FFFFFF" />
 
       <link rel="shortcut icon" href="/assets/favicon.svg" />
-      <link rel="manifest" href="/manifest.json" />
     </Helmet>
   );
 };
