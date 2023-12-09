@@ -20,7 +20,7 @@ const pwaOptions: Partial<VitePWAOptions> = {
     theme_color: '#FFFFFF',
     dir: 'ltr',
     display: 'standalone',
-    orientation: 'portrait',
+    orientation: 'natural',
     prefer_related_applications: false,
     icons: [
       {
