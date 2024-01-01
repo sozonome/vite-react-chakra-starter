@@ -6,8 +6,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "pnpm type-check && vite build",
-    "build:turbo": "npx turbo build",
+    "vite:build": "vite build",
+    "build": "npx turbo type-check vite:build",
     "serve": "vite preview",
     "lint": "eslint src",
     "lint:fix": "eslint src --fix && pnpm format",
