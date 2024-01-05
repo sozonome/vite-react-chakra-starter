@@ -1,4 +1,3 @@
 {
-  "rewrites": [{ "source": "/(.*)", "destination": "/" }],
-  "buildCommand": "pnpm build:turbo"
+  "rewrites": [{ "source": "/(.*)", "destination": "/" }]
 }
