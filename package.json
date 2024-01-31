@@ -11,7 +11,7 @@
     "lint": "eslint src",
     "lint:fix": "eslint src --fix && pnpm format",
     "type-check": "tsc",
-    "check:turbo": "npx turbo lint type-check",
+    "check:turbo": "pnpm dlx turbo@latest lint type-check",
     "knip": "knip",
     "format": "prettier --write src",
     "up-interactive": "pnpm up -i",
