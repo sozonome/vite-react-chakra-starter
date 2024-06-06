@@ -10,15 +10,16 @@
     "serve": "vite preview",
     "lint": "eslint src",
     "lint:fix": "eslint src --fix && pnpm format",
+    "turbo": "pnpm dlx turbo@2.0.1",
     "type-check": "tsc",
-    "check:turbo": "pnpm dlx turbo@latest lint type-check",
+    "check:turbo": "pnpm turbo lint type-check",
     "knip": "knip",
     "format": "prettier --write src",
     "up-interactive": "pnpm up -i",
     "up-latest": "pnpm up-interactive -L",
     "release": "standard-version",
     "push-release": "git push --follow-tags origin main",
-    "prepare": "husky install"
+    "prepare": "husky"
   },
   "dependencies": {
     "@chakra-ui/react": "^2.8.2",
