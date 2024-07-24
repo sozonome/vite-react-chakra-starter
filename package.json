@@ -10,7 +10,7 @@
     "serve": "vite preview",
     "lint": "eslint src --cache",
     "lint:fix": "eslint src --fix && pnpm format",
-    "turbo": "pnpm dlx turbo@2.0.1",
+    "turbo": "pnpm dlx turbo@2.0.9",
     "type-check": "tsc",
     "test": "vitest run",
     "test:ui": "vitest --ui --coverage",
