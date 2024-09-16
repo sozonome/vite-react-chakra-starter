@@ -10,6 +10,7 @@
     "serve": "vite preview",
     "biome:check": "biome check",
     "biome:fix": "pnpm biome:check --write",
+    "biome:ci": "biome ci",
     "turbo": "pnpm dlx turbo@2.0.9",
     "type:check": "tsc",
     "test": "vitest run",
