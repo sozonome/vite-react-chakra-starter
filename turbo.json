@@ -4,14 +4,14 @@
     "type:check": {
       "outputs": ["*.tsbuildinfo"]
     },
-    "build": {
-      "dependsOn": ["type-check"],
-      "outputs": ["dist/**", "public/**"],
-      "env": []
-    },
     "biome:check": {
       "outputs": [],
       "inputs": ["biome.json", "src/**"]
+    },
+    "build": {
+      "dependsOn": ["type:check", "biome:check"],
+      "outputs": ["dist/**", "public/**"],
+      "env": []
     }
   }
 }
