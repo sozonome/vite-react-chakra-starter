@@ -38,7 +38,6 @@ export default defineConfig({
     react(),
     checker({
       typescript: true,
-      eslint: { lintCommand: 'eslint "./src/**/*.{js,jsx,ts,tsx}"' },
     }),
     tsconfigPaths(),
     visualizer({ template: 'sunburst' }) as unknown as PluginOption,
