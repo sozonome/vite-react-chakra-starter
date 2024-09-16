@@ -1,7 +1,7 @@
 {
   "$schema": "https://turbo.build/schema.json",
   "tasks": {
-    "type-check": {
+    "type:check": {
       "outputs": ["*.tsbuildinfo"]
     },
     "build": {
@@ -9,7 +9,7 @@
       "outputs": ["dist/**", "public/**"],
       "env": []
     },
-    "lint": {
+    "biome:check": {
       "outputs": [],
       "inputs": ["biome.json", "src/**"]
     }
