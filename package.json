@@ -8,7 +8,7 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "biome:check": "pnpm biome check",
+    "biome:check": "biome check",
     "biome:fix": "pnpm biome:check --write",
     "turbo": "pnpm dlx turbo@2.0.9",
     "type:check": "tsc",
