@@ -38,6 +38,7 @@ export default defineConfig({
     react(),
     checker({
       typescript: true,
+      biome: true,
     }),
     tsconfigPaths(),
     visualizer({ template: 'sunburst' }) as unknown as PluginOption,
