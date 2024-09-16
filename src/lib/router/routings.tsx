@@ -9,12 +9,12 @@
  */
 
 import { Suspense } from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 
 import Page404 from '~/lib/pages/404';
 
 import { RequireAuth } from './require-auth';
-import { routes, privateRoutes } from './routes';
+import { privateRoutes, routes } from './routes';
 
 export const Routings = () => {
   return (
