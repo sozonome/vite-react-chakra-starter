@@ -3,7 +3,7 @@ import * as React from 'react';
 import ReactDOM from 'react-dom/client';
 
 // fonts
-import '@fontsource/plus-jakarta-sans/latin.css';
+import '@fontsource-variable/plus-jakarta-sans';
 
 import { theme } from '~/lib/styles/theme';
 

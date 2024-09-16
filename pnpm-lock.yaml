@@ -17,7 +17,7 @@ importers:
       '@emotion/styled':
         specifier: ^11.13.0
         version: 11.13.0(@emotion/react@11.13.3(@types/react@18.3.5)(react@18.3.1))(@types/react@18.3.5)(react@18.3.1)
-      '@fontsource/plus-jakarta-sans':
+      '@fontsource-variable/plus-jakarta-sans':
         specifier: ^5.1.0
         version: 5.1.0
       framer-motion:
@@ -1532,8 +1532,8 @@ packages:
     resolution: {integrity: sha512-Ys+3g2TaW7gADOJzPt83SJtCDhMjndcDMFVQ/Tj9iA1BfJzFKD9mAUXT3OenpuPHbI6P/myECxRJrofUsDx/5g==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
 
-  '@fontsource/plus-jakarta-sans@5.1.0':
-    resolution: {integrity: sha512-o6qReKG0r7+YyNzMe0CbIC4u8nsLwUHRe3btQU+cYI/UH8+Cbvv278WICqEuj7zsBRu1eiuBgvBG17+cU+PJIw==}
+  '@fontsource-variable/plus-jakarta-sans@5.1.0':
+    resolution: {integrity: sha512-K7o2GO7/quVFFyfjTqYZu0ng4KJGf60KSAGbvUWwKuH+/Giyl6Qe/EqnGLcjrl9AmXZzTvtRB1xpkASn8FNFoQ==}
 
   '@humanwhocodes/config-array@0.11.14':
     resolution: {integrity: sha512-3T8LkOmg45BV5FICb15QQMsyUSWrQ8AygVfC7ZG32zOalnqrilm018ZVCw0eapXux8FtA33q8PSRSstjee3jSg==}
@@ -6524,7 +6524,7 @@ snapshots:
   '@eslint/js@8.57.0':
     optional: true
 
-  '@fontsource/plus-jakarta-sans@5.1.0': {}
+  '@fontsource-variable/plus-jakarta-sans@5.1.0': {}
 
   '@humanwhocodes/config-array@0.11.14':
     dependencies:
