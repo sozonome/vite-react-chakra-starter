@@ -1,4 +1,5 @@
 {
-  "src/**/*.{js,jsx,ts,tsx}": ["prettier --write"],
-  "src/**/*.{json,css,scss,md}": ["prettier --write"]
+	"src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+		"biome check --write --no-errors-on-unmatched"
+	]
 }

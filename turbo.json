@@ -11,7 +11,7 @@
     },
     "lint": {
       "outputs": [],
-      "inputs": [".eslintrc.*", "src/**"]
+      "inputs": ["biome.json", "src/**"]
     }
   }
 }

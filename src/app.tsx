@@ -5,7 +5,7 @@ import { Layout } from '~/lib/layout';
 import { Routings } from '~/lib/router/routings';
 import { theme } from '~/lib/styles/theme';
 
-const App = () => (
+export const App = () => (
   <ChakraProvider theme={theme}>
     <Router>
       <Layout>
@@ -14,5 +14,3 @@ const App = () => (
     </Router>
   </ChakraProvider>
 );
-
-export default App;
