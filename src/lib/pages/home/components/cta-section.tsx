@@ -1,7 +1,7 @@
 import { Box, Button, Flex, Image, Link } from '@chakra-ui/react';
 import { AiFillGithub } from 'react-icons/ai';
 
-const CTASection = () => (
+export const CTASection = () => (
   <Box textAlign="center">
     <Link
       _hover={undefined}
@@ -37,5 +37,3 @@ const CTASection = () => (
     </Flex>
   </Box>
 );
-
-export default CTASection;

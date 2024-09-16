@@ -5,7 +5,7 @@ type PrivateRouteProps = {
   redirectTo?: string;
 };
 
-const RequireAuth = ({
+export const RequireAuth = ({
   children,
   redirectTo = '/login',
 }: PrivateRouteProps) => {
@@ -18,5 +18,3 @@ const RequireAuth = ({
     <Navigate to={redirectTo} />
   );
 };
-
-export default RequireAuth;

@@ -2,7 +2,7 @@ import { Helmet } from 'react-helmet';
 
 const APP_NAME = 'vite-react-chakra-starter';
 
-const Meta = () => {
+export const Meta = () => {
   return (
     <Helmet>
       <title>Vite React Chakra Starter</title>
@@ -20,5 +20,3 @@ const Meta = () => {
     </Helmet>
   );
 };
-
-export default Meta;

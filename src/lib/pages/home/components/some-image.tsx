@@ -2,7 +2,7 @@ import { Flex, Image } from '@chakra-ui/react';
 
 const ICON_SIZE = 22;
 
-const SomeImage = () => {
+export const SomeImage = () => {
   return (
     <Flex marginY={4} justifyContent="center" alignItems="center" gridGap={2}>
       <Image
@@ -32,5 +32,3 @@ const SomeImage = () => {
     </Flex>
   );
 };
-
-export default SomeImage;

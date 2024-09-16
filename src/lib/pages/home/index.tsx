@@ -1,8 +1,8 @@
 import { Grid } from '@chakra-ui/react';
 
-import CTASection from './components/CTASection';
-import SomeImage from './components/SomeImage';
-import SomeText from './components/SomeText';
+import { CTASection } from './components/cta-section';
+import { SomeImage } from './components/some-image';
+import { SomeText } from './components/some-text';
 
 const Home = () => {
   return (
