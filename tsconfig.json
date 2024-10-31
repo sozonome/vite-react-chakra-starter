@@ -18,9 +18,8 @@
     "noEmit": true,
     "incremental": true,
     "jsx": "react-jsx",
-    "baseUrl": "src",
     "paths": {
-      "~/*": ["./*"]
+      "@/*": ["./src/*"]
     },
 
     /* Linting */
