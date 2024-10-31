@@ -20,7 +20,12 @@ const Page404 = () => {
 
       <Box maxWidth={[280, 400]} marginX="auto">
         <Image width={400} src="/assets/404 Error-rafiki.svg" />
-        <Link fontSize="xs" href="https://stories.freepik.com/web" isExternal>
+        <Link
+          fontSize="xs"
+          href="https://stories.freepik.com/web"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Illustration by Freepik Stories
         </Link>
       </Box>
