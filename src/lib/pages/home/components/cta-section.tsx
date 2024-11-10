@@ -4,14 +4,22 @@ import { AiFillGithub } from 'react-icons/ai';
 
 export const CTASection = () => (
   <Box textAlign="center">
-    <Link
-      _hover={undefined}
-      href="https://github.com/sozonome/vite-react-chakra-starter"
-    >
-      <Button size="sm">
-        <AiFillGithub /> Open in Github
-      </Button>
-    </Link>
+    <Flex marginY={4} justifyContent="center" gridGap={2}>
+      <Link
+        _hover={undefined}
+        href="https://github.com/new?template_name=vite-react-chakra-starter&template_owner=sozonome"
+      >
+        <Button size="sm">Use This Template</Button>
+      </Link>
+      <Link
+        _hover={undefined}
+        href="https://github.com/sozonome/vite-react-chakra-starter"
+      >
+        <Button size="sm" variant="outline">
+          <AiFillGithub /> Open in Github
+        </Button>
+      </Link>
+    </Flex>
     <Flex marginY={4} justifyContent="center" gridGap={2}>
       <Link
         aria-label="Deploy to Vercel"
