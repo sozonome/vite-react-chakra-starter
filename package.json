@@ -2,7 +2,7 @@
   "name": "vite-react-chakra-starter",
   "version": "0.1.0",
   "private": true,
-  "author": "sozonome",
+  "author": "agustinusnathaniel",
   "type": "module",
   "scripts": {
     "dev": "react-router dev",

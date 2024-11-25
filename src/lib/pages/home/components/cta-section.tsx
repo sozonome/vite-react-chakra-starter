@@ -7,13 +7,13 @@ export const CTASection = () => (
     <Flex marginY={4} justifyContent="center" gridGap={2}>
       <Link
         _hover={undefined}
-        href="https://github.com/new?template_name=vite-react-chakra-starter&template_owner=sozonome"
+        href="https://github.com/new?template_name=vite-react-chakra-starter&template_owner=agustinusnathaniel"
       >
         <Button size="sm">Use This Template</Button>
       </Link>
       <Link
         _hover={undefined}
-        href="https://github.com/sozonome/vite-react-chakra-starter"
+        href="https://github.com/agustinusnathaniel/vite-react-chakra-starter"
       >
         <Button size="sm" variant="outline">
           <AiFillGithub /> Open in Github
@@ -25,7 +25,7 @@ export const CTASection = () => (
         aria-label="Deploy to Vercel"
         target="_blank"
         rel="noopener noreferrer"
-        href="https://vercel.com/import/git?s=https://github.com/sozonome/vite-react-chakra-starter"
+        href="https://vercel.com/import/git?s=https://github.com/agustinusnathaniel/vite-react-chakra-starter"
       >
         <Image
           src="https://vercel.com/button"
@@ -37,7 +37,7 @@ export const CTASection = () => (
         aria-label="Deploy to Netlify"
         target="_blank"
         rel="noopener noreferrer"
-        href="https://app.netlify.com/start/deploy?repository=https://github.com/sozonome/vite-react-chakra-starter"
+        href="https://app.netlify.com/start/deploy?repository=https://github.com/agustinusnathaniel/vite-react-chakra-starter"
       >
         <Image
           src="https://www.netlify.com/img/deploy/button.svg"

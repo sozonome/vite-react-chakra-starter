@@ -11,8 +11,12 @@ export const Footer = () => {
     >
       <Text fontSize="xs">
         {new Date().getFullYear()} -{' '}
-        <Link href="https://sznm.dev" target="_blank" rel="noopener noreferrer">
-          sznm.dev
+        <Link
+          href="https://agustinusnathaniel.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          agustinusnathaniel.com
         </Link>
       </Text>
     </Flex>
