@@ -4,7 +4,8 @@
   status=200
 
 [build]
-  command = 'pnpm turbo build'
+  command = 'pnpm build'
+  publish = 'build/client/'
 
 [build.environment]
   NODE_VERSION="20"

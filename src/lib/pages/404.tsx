@@ -7,7 +7,7 @@ import {
   Link,
   Text,
 } from '@chakra-ui/react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router';
 
 const Page404 = () => {
   const navigate = useNavigate();

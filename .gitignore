@@ -1,6 +1,7 @@
 node_modules
 .DS_Store
 dist
+build
 dist-ssr
 *.local
 
@@ -22,3 +23,6 @@ coverage/
 
 # ESLint
 .eslintcache
+
+# React Router
+.react-router

@@ -3,7 +3,7 @@
 This is a project bootstrapped with [`@vitejs/app`](https://vitejs.dev/guide/#scaffolding-your-first-vite-project) (`react-ts`), added with [Chakra UI](https://chakra-ui.com) and [TypeScript](https://www.typescriptlang.org) setup.
 
 - ⚡ blazing fast dev server and build
-- 🔗 route management added (`react-router-dom` configured)
+- 🔗 route management added (`react-router` v7 - Framework configuration)
 
 [**Live Demo**](https://vite-react-chakra-starter.sznm.dev/)
 
@@ -28,7 +28,7 @@ pnpm dev
 ## Deployment
 
 - build command: `pnpm build`
-- output directory: `dist`
+- output directory: `build/client`
 
 ## References
 
