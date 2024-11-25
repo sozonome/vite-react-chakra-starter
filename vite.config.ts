@@ -1,6 +1,5 @@
 /* eslint-disable import/no-extraneous-dependencies */
-import react from '@vitejs/plugin-react';
-import million from 'million/compiler';
+import { reactRouter } from '@react-router/dev/vite';
 import { visualizer } from 'rollup-plugin-visualizer';
 import type { PluginOption } from 'vite';
 import { defineConfig } from 'vite';
@@ -34,8 +33,7 @@ const pwaOptions: Partial<VitePWAOptions> = {
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
-    million.vite({ auto: true }),
-    react(),
+    reactRouter(),
     checker({
       typescript: true,
       biome: true,
@@ -46,5 +44,8 @@ export default defineConfig({
   ],
   server: {
     open: true,
+  },
+  ssr: {
+    noExternal: ['react-helmet-async'], // temporary
   },
 });

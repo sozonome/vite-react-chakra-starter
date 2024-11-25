@@ -22,3 +22,6 @@ coverage/
 
 # ESLint
 .eslintcache
+
+# React Router
+.react-router
