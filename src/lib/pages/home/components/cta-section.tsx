@@ -2,30 +2,33 @@ import { Button } from '@/components/ui/button';
 import { Box, Flex, Image, Link } from '@chakra-ui/react';
 import { AiFillGithub } from 'react-icons/ai';
 
+const repoName = 'vite-react-chakra-starter';
+const repoLink = `https://github.com/agustinusnathaniel/${repoName}`;
+
 export const CTASection = () => (
   <Box textAlign="center">
     <Flex marginY={4} justifyContent="center" gridGap={2}>
-      <Link
-        _hover={undefined}
-        href="https://github.com/new?template_name=vite-react-chakra-starter&template_owner=agustinusnathaniel"
-      >
-        <Button size="sm">Use This Template</Button>
-      </Link>
-      <Link
-        _hover={undefined}
-        href="https://github.com/agustinusnathaniel/vite-react-chakra-starter"
-      >
-        <Button size="sm" variant="outline">
+      <Button asChild size="sm">
+        <Link
+          href={`${repoLink}/generate`}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Use This Template
+        </Link>
+      </Button>
+      <Button asChild size="sm" variant="outline">
+        <Link href={repoLink} target="_blank" rel="noopener noreferrer">
           <AiFillGithub /> Open in Github
-        </Button>
-      </Link>
+        </Link>
+      </Button>
     </Flex>
     <Flex marginY={4} justifyContent="center" gridGap={2}>
       <Link
         aria-label="Deploy to Vercel"
         target="_blank"
         rel="noopener noreferrer"
-        href="https://vercel.com/import/git?s=https://github.com/agustinusnathaniel/vite-react-chakra-starter"
+        href={`https://vercel.com/import/git?s=${repoLink}`}
       >
         <Image
           src="https://vercel.com/button"
@@ -37,7 +40,7 @@ export const CTASection = () => (
         aria-label="Deploy to Netlify"
         target="_blank"
         rel="noopener noreferrer"
-        href="https://app.netlify.com/start/deploy?repository=https://github.com/agustinusnathaniel/vite-react-chakra-starter"
+        href={`https://app.netlify.com/start/deploy?repository=${repoLink}`}
       >
         <Image
           src="https://www.netlify.com/img/deploy/button.svg"
